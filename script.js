@@ -28,7 +28,7 @@ let playing = true;
 let scores, currentScore, activePlayer, playing;
 
 const initGame = function () {
-  // NOTE: These are scoped, cannot use outside the function -> need to declare outside -> reassign here
+  // NOTE: These are 'scoped', cannot use outside the function -> need to declare outside -> reassign here
   currentScore = 0;
   scores = [0, 0];
   playing = true;
